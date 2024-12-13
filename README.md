@@ -92,23 +92,33 @@ Brain tumors are among the deadliest cancers due to their unpredictable growth p
 ---
 
 
-
-
-
-
-
-## **Results**
-
-### **Performance Metrics**
-| **Model**                | **Dice Score (Test)** | **IoU (Test)** | **Accuracy (Test)** |
-|--------------------------|-----------------------|----------------|---------------------|
-| PSPNet (Scratch)         | 0.8054               | 0.7815         | 99.51%             |
-| PSPNet (Transfer)        | 0.9064               | 0.8763         | 99.78%             |
-| UNet-EfficientNetB7      | 0.9262               | 0.9007         | 99.83%             |
-
 ### **Graphs**
 1. **Accuracy vs Epochs**
-   ![Accuracy](evaluation/results/graphs/accuracy_vs_epoch.png)
+   ![image](https://github.com/user-attachments/assets/7107d1f8-7600-4c4d-ae64-e77a14593a43)
+   ![image](https://github.com/user-attachments/assets/ac26f68f-e9b7-465e-abc4-9701c5582697)
+
+
    
+2. **Loss vs Epochs**
+   ![image](https://github.com/user-attachments/assets/37394d9d-3129-46ff-9c27-158b7435b85b)
+   ![image](https://github.com/user-attachments/assets/9a947e8b-5642-43f5-9f94-c0e22543af5e)
+
+
+
+3. **Dice Score vs Epochs**
+   ![image](https://github.com/user-attachments/assets/f051038e-c48e-4832-aab1-8862331a11fe)
+   ![image](https://github.com/user-attachments/assets/0776e9c4-512e-4471-9372-a77c05872128)
+
+
+4. **IOU Score vs Epochs**
+   ![image](https://github.com/user-attachments/assets/4fe22558-aae8-48aa-a217-eeb342d563c1)
+   ![image](https://github.com/user-attachments/assets/235e74ec-53e0-4ce6-a82d-58a7d5e9df94)
+
+
+
+
+   
+
+
 
 
