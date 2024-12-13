@@ -47,6 +47,47 @@ Brain tumors are among the deadliest cancers due to their unpredictable growth p
 
 ---
 
+## **Methodology**
 
+### **Dataset**
+- **Source**: [Kaggle - LGG Brain MRI Segmentation Dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation).
+- **Description**:
+  - Contains MRI images and segmentation masks for LGGs.
+  - Includes 110 patients with genomic cluster data.
+
+### **Data Preprocessing**
+1. **Handling Missing Data**: Used Python's `SimpleImputer` to fill missing values.
+2. **Train-Test Split**:
+   - Training: 70%.
+   - Validation: 15%.
+   - Test: 15%.
+
+### **Models**
+1. **PSPNet**:
+   - **From Scratch**: Built complete architecture without pre-trained weights.
+   - **Transfer Learning**: Integrated ResNeXt50-32x4d encoder pre-trained on ImageNet.
+2. **UNet-EfficientNetB7**:
+   - Combined UNet’s segmentation capabilities with EfficientNetB7’s feature extraction.
+
+### **Performance Metrics**
+- **Dice Score**: Measures overlap between predicted and ground truth masks.
+- **IoU (Intersection over Union)**: Evaluates segmentation accuracy.
+- **Accuracy**: Percentage of correctly classified pixels.
+
+---
+
+## **Results**
+
+### **Performance Metrics**
+| **Model**                | **Dice Score (Test)** | **IoU (Test)** | **Accuracy (Test)** |
+|--------------------------|-----------------------|----------------|---------------------|
+| PSPNet (Scratch)         | 0.8054               | 0.7815         | 99.51%             |
+| PSPNet (Transfer)        | 0.9064               | 0.8763         | 99.78%             |
+| UNet-EfficientNetB7      | 0.9262               | 0.9007         | 99.83%             |
+
+### **Graphs**
+1. **Accuracy vs Epochs**
+   ![Accuracy](evaluation/results/graphs/accuracy_vs_epoch.png)
+   
 
 
