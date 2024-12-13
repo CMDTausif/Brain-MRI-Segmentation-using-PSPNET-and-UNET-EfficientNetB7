@@ -76,10 +76,21 @@ Brain tumors are among the deadliest cancers due to their unpredictable growth p
 
 ---
 
-## **Segmented Images by PSPNet From Scratch** 
+## **Predicted Images by PSPNet From Scratch** 
 
 ![image](https://github.com/user-attachments/assets/c85aadd1-342c-4838-9840-8aa7df9dc602)
 ![image](https://github.com/user-attachments/assets/d8099080-823a-486c-b241-5b2d27bce355)
+
+---
+
+
+## **Predicted Images By PSPNet-Resnext50_32x4d and UNet-EfficientNetB7**
+
+![image](https://github.com/user-attachments/assets/177f45d9-c8ec-4c53-97d6-f98e0490e50d)
+![image](https://github.com/user-attachments/assets/43b36db2-59d1-4d73-8a5d-e67d616f60e1)
+
+---
+
 
 
 
