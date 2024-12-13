@@ -14,8 +14,7 @@ Brain tumor segmentation is a critical task in medical imaging. This project foc
 4. [Results](#results)
 5. [Discussion](#discussion)
 6. [Conclusion](#conclusion)
-7. [How to Use](#how-to-use)
-8. [Acknowledgements](#acknowledgements)
+
 
 ---
 
@@ -115,6 +114,26 @@ Brain tumors are among the deadliest cancers due to their unpredictable growth p
    ![image](https://github.com/user-attachments/assets/235e74ec-53e0-4ce6-a82d-58a7d5e9df94)
 
 
+## **Discussion**
+
+### **Key Insights**
+1. **Transfer Learning Advantage**:
+   - PSPNet and UNet-EfficientNetB7 with pre-trained weights converged faster.
+   - Achieved higher segmentation metrics compared to scratch models.
+2. **Model Comparison**:
+   - UNet-EfficientNetB7 outperformed PSPNet in Dice and IoU scores across datasets.
+3. **Limitations**:
+   - High computational cost for scratch models.
+   - Dataset limited to LGGs only.
+
+---
+
+## **Conclusion**
+- Transfer learning significantly enhances segmentation performance.
+- UNet-EfficientNetB7 is recommended for brain tumor segmentation tasks.
+- Future research can extend to 3D segmentation and multi-class tumor segmentation.
+
+---
 
 
    
