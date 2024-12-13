@@ -90,6 +90,17 @@ Brain tumors are among the deadliest cancers due to their unpredictable growth p
 
 ---
 
+## **Results**
+
+### **Performance Metrics**
+| **Model**                | **Dice Score (Test)** | **IoU (Test)** | **Accuracy (Test)** |
+|--------------------------|-----------------------|----------------|---------------------|
+| PSPNet (Scratch)         | 0.8054               | 0.7815         | 99.51%             |
+| PSPNet (Transfer)        | 0.9064               | 0.8763         | 99.78%             |
+| UNet-EfficientNetB7      | 0.9262               | 0.9007         | 99.83%             |
+
+
+---
 
 ### **Graphs**
 1. **Accuracy vs Epochs**
