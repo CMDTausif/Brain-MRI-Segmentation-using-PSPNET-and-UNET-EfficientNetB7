@@ -7,7 +7,18 @@ Brain tumor segmentation is a critical task in medical imaging. This project foc
 
 ---
 
-Kaggle Dataset Link - https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation
+## **Table of Contents**
+1. [Introduction](#introduction)
+2. [Literature Review](#literature-review)
+3. [Methodology](#methodology)
+4. [Results](#results)
+5. [Discussion](#discussion)
+6. [Conclusion](#conclusion)
+7. [How to Use](#how-to-use)
+8. [Acknowledgements](#acknowledgements)
+
+---
+
 
 
 
