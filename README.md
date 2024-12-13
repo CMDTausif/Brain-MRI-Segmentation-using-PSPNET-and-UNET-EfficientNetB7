@@ -14,7 +14,7 @@ Brain tumor segmentation is a critical task in medical imaging. This project foc
 4. [Results](#results)
 5. [Discussion](#discussion)
 6. [Conclusion](#conclusion)
-7. [Framework Used](#framework used)
+7. [Framework Used](#frameworkused)
 
 
 ---
