@@ -83,7 +83,7 @@ Brain tumors are among the deadliest cancers due to their unpredictable growth p
    - **From Scratch**: Built complete architecture without pre-trained weights.
    - **Transfer Learning**: Integrated ResNeXt50-32x4d encoder pre-trained on ImageNet.
 2. **UNet-EfficientNetB7**:
-   - Combined UNet’s segmentation capabilities with EfficientNetB7’s feature extraction.
+   - Combined UNet’s segmentation capabilities with encoder EfficientNetB7’s feature extraction.
 
 ### **Performance Metrics**
 - **Dice Score**: Measures overlap between predicted and ground truth masks.
