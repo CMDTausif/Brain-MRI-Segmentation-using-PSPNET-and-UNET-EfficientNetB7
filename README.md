@@ -14,6 +14,7 @@ Brain tumor segmentation is a critical task in medical imaging. This project foc
 4. [Results](#results)
 5. [Discussion](#discussion)
 6. [Conclusion](#conclusion)
+7. [Framework](#framework used)
 
 
 ---
@@ -156,11 +157,43 @@ Brain tumors are among the deadliest cancers due to their unpredictable growth p
 ---
 
 ## **Conclusion**
-- Transfer learning significantly enhances segmentation performance.
-- UNet-EfficientNetB7 is recommended for brain tumor segmentation tasks.
-- Future research can extend to 3D segmentation and multi-class tumor segmentation.
+
+### **Project Summary**
+"This project successfully demonstrated the segmentation of brain MRI images using advanced deep learning models, PSPNet and UNet-EfficientNetB7. By employing both transfer learning and scratch implementations, the study highlighted the superior performance of pre-trained models in terms of accuracy, Dice score, and IoU. The dataset of Low-Grade Glioma (LGG) MRI scans provided a robust basis for training and evaluating the models."
+
+### **Key Achievements**
+- UNet-EfficientNetB7 achieved the best segmentation performance, with a Dice score of 0.9262 and an IoU of 0.9007 on the test dataset.
+- Transfer learning models significantly outperformed models trained from scratch, both in accuracy and computational efficiency.
+- The visualization of segmentation results demonstrated clear delineation of tumor regions, confirming the effectiveness of the models.
+
+### **Significance**
+"The results indicate that transfer learning is a powerful approach for medical imaging tasks, particularly when data availability is limited. The integration of pre-trained encoders like ResNeXt50-32x4d and EfficientNetB7 enhances segmentation accuracy while reducing training time."
+
+### **Challenges Addressed**
+"This project tackled challenges such as limited data by using transfer learning, enabling the models to generalize better to unseen datasets."
+"The results also showed that despite the computational cost, deep learning models can provide highly accurate segmentations for medical diagnostics."
+
+### **Future Directions**
+- Extend the research to include **High-Grade Gliomas (HGGs)** for a broader application.
+- Explore **3D segmentation models** to improve the analysis of volumetric MRI data.
+- Incorporate **multi-class tumor segmentation** to identify different tumor types (e.g., glioma, meningioma, pituitary tumors).
+- Optimize computational efficiency further using techniques like **model pruning** or **quantization**.
+
+### **Personal Reflections (Optional)**
+"This project provided invaluable experience in implementing state-of-the-art deep learning models for real-world applications. It enhanced my understanding of medical imaging and transfer learning techniques, reinforcing the importance of AI in healthcare innovation."
 
 ---
+
+### **Frameworks Used**
+
+- **TensorFlow**: TensorFlow was used for building and training the **PSPNet** model from scratch. **TensorFlow Keras** was utilized for implementing deep learning layers and training loops, offering flexibility and efficiency for large-scale training tasks.
+  
+- **PyTorch**: PyTorch was used for implementing the **UNet With EfficientNetB7 Encoder** model with pre-trained weights and also **PSPNet With Resnext50_32x4d Encoder**. PyTorch's dynamic computation graph allows for flexible experimentation and debugging, making it ideal for rapid development and testing of different architectures.
+  
+  "Both frameworks were selected based on their individual strengths, making them suitable for different parts of the project. TensorFlow excelled in large-scale training and visualization with TensorBoard, while PyTorch provided greater flexibility for academic and experimental research."
+
+---
+
 
 
    
