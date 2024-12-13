@@ -179,7 +179,7 @@ Brain tumors are among the deadliest cancers due to their unpredictable growth p
 - Incorporate **multi-class tumor segmentation** to identify different tumor types (e.g., glioma, meningioma, pituitary tumors).
 - Optimize computational efficiency further using techniques like **model pruning** or **quantization**.
 
-### **Personal Reflections (Optional)**
+### **Personal Reflections**
 "This project provided invaluable experience in implementing state-of-the-art deep learning models for real-world applications. It enhanced my understanding of medical imaging and transfer learning techniques, reinforcing the importance of AI in healthcare innovation."
 
 ---
