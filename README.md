@@ -119,7 +119,7 @@ Brain tumors are among the deadliest cancers due to their unpredictable growth p
 
 ---
 
-### **Graphs**
+### **Graphs of Transfer Learning Model (PSPNet-Resnext50_32x4d and UNet-EfficientNetB7)**
 1. **Accuracy vs Epochs**
    ![image](https://github.com/user-attachments/assets/7107d1f8-7600-4c4d-ae64-e77a14593a43)
    ![image](https://github.com/user-attachments/assets/ac26f68f-e9b7-465e-abc4-9701c5582697)
